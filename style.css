@@ -72,7 +72,7 @@ h1 {
 }
 
 .me-img {
-    background: url(img/dude.jpg) no-repeat center center;
+    background: url(../img/dude.jpg) no-repeat center center;
     background-size: 100%;
     background-position: 0px;
     border-radius: 100%;
@@ -100,6 +100,16 @@ h1 {
     line-height: 1.5;
     margin: 0 8px 0 0;
     text-align: center;
+}
+
+.name-hero ul {
+    margin: 20px 8px 0 0;
+    text-align: center;
+}
+
+.name-hero ul a {
+    color: rgba(0, 0, 0, .75);
+    text-decoration: none;
 }
 
 .name-hero .name-text {
@@ -152,7 +162,7 @@ ul {
 {
     position: fixed;
     display: flex;
-    width: 100%;
+    width: 66.6%;
     height: 60px;
     background-color: rgb(41, 41, 41);
 }
@@ -160,9 +170,11 @@ ul {
 #nav a {
     display: flex;
     color: white;
-    padding: 10px 30px;
+    padding: 0.5% 2%;
     text-decoration: none;
     border-right: 3px solid rgb(31, 31, 31);
+    justify-content: center;
+    align-items: center;
 }
 
 #nav a:hover {
